@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "733398681777",
+    "project_id": "fragmentsample-441d9",
+    "storage_bucket": "fragmentsample-441d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733398681777:android:4ccb57cae67714ffccfa90",
+        "android_client_info": {
+          "package_name": "com.example.kakaofragment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733398681777-4brvl2ij93g8o9sdr7jusnr8evja6ada.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUmoW4ezG43OFEK8MpTIib7CG25q7FJ9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733398681777-4brvl2ij93g8o9sdr7jusnr8evja6ada.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733398681777:android:a6510a2caac07f37ccfa90",
+        "android_client_info": {
+          "package_name": "com.test.fragmentsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733398681777-4brvl2ij93g8o9sdr7jusnr8evja6ada.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUmoW4ezG43OFEK8MpTIib7CG25q7FJ9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733398681777-4brvl2ij93g8o9sdr7jusnr8evja6ada.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

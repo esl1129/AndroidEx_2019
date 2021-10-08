@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe812">
+
+    <ImageView
+        android:id="@+id/talkImage"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        app:layout_constraintBottom_toTopOf="@+id/idEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/idEdit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/idHint"
+        android:inputType="text"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/passwdEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="10dp"
+        android:textColorHighlight="#dddddd"/>
+
+    <EditText
+        android:id="@+id/passwdEdit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/passwdHint"
+        android:textSize="15sp"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10sp"
+        android:autofillHints=""
+        android:textColorHighlight="#dddddd"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/loginText"
+        android:textColor="#ffffff"
+        android:backgroundTint="#3a1d1d"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwdEdit"
+        android:layout_margin="10dp"/>
+
+</android.support.constraint.ConstraintLayout>

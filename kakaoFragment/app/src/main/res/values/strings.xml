@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">kakaoFragment</string>
+    <string name="idHint">카카오 계정 (이메일 또는 전화번호)</string>
+    <string name="passwdHint">비밀번호</string>
+    <string name="passwdHint2">비밀번호 재확인</string>
+    <string name="loginText">로그인</string>
+    <string name="signUpText">회원가입</string>
+
+</resources>
